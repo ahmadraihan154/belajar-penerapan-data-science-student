@@ -173,20 +173,12 @@ Untuk mengakses **dashboard** secara lokal, Anda dapat menjalankan **Metabase** 
 ![image](https://github.com/user-attachments/assets/e588ce82-8585-4389-b20a-40e0c7326a0d)
 ![image](https://github.com/user-attachments/assets/d55399cd-467b-4b04-9636-04b148d7fa26)
 
-## 5. Hasil Model Prediktif
-- Berdasarkan hasil evaluasi menggunakan metrik accuracy, precision, recall, f1-score, serta analisis melalui confusion matrix, dapat disimpulkan bahwa **model Random Forest memiliki performa terbaik di antara model Decision Tree dan Gradient Boosting untuk dataset yang tidak seimbang**.
+## 5. Menjalankan Sistem Machine Learning
+- Untuk menjalankan prototipe sistem machine learning yang telah dibuat, pengguna cukup mengakses aplikasi web yang telah dideploy menggunakan Streamlit. Proses deployment dilakukan melalui integrasi antara GitHub dan Streamlit Cloud, sehingga pengguna tidak perlu melakukan instalasi manual. Aplikasi ini memungkinkan pengguna untuk menginput data, melakukan prediksi, dan melihat hasil evaluasi model secara langsung melalui antarmuka yang sederhana dan interaktif.
 
-- Hal ini ditunjukkan oleh nilai evaluasi berikut:
-  - Accuracy: 76.16%
-  - Precision: 75.73%
-  - Recall: 76.16%
-  - F1-Score: 75.67%
+Prototipe sistem dapat diakses melalui tautan berikut:
 
-| Model               | Accuracy | Precision | Recall  | F1 Score |
-|---------------------|----------|-----------|---------|----------|
-| XGBoost            | 0.7390   | 0.7615    | 0.7390  | 0.7426   |
-| Random Forest  | 0.7616   | 0.7573    | 0.7616  | 0.7567   |
-| Gradient Boosting  | 0.7503 | 0.7531    | 0.7503  | 0.7491   |
+[https://studentkuprediksi.streamlit.app/](https://studentkuprediksi.streamlit.app/)
 
 ### 6. Conclusion
 - Dengan memahami faktor-faktor utama yang memengaruhi status mahasiswa untuk lulus (graduate), masih aktif (enrolled), atau berhenti studi (dropout) serta menerapkan model prediktif yang efektif, institusi pendidikan dapat mengambil langkah proaktif untuk meningkatkan jumlah kelulusan mahasiswa dan mengurangi mahasiswa yang dropout.
