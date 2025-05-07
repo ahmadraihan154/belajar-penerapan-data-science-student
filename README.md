@@ -55,7 +55,7 @@ Dataset yang digunakan dalam proyek ini adalah **[Dataset students' performance]
 
 ### 2. Menjalankan app.py
 - Pastikan seluruh **dependensi** telah terinstal sesuai dengan daftar pada **`requirements.txt`**.
-- File `prediction.py` dapat dijalankan secara langsung menggunakan **VSCode** atau IDE lokal lain yang mendukung Python.
+- File `app.py` dapat dijalankan secara langsung menggunakan **VSCode** atau IDE lokal lain yang mendukung Python.
 
 - Script ini memuat:
   - **Fungsi prediction** (`predict_status`) untuk melakukan proses encoding, normalisasi, selektsi fitur sebelum prediksi.
@@ -63,7 +63,7 @@ Dataset yang digunakan dalam proyek ini adalah **[Dataset students' performance]
   - **Feature Encoding** (`encoding.joblib`) yang dimuat menggunakan  `joblib`.
   - **Feature Scaling** (`scaler.joblib`) yang dimuat menggunakan  `joblib`.
   - **Feature Selection** (`selector.joblib`) yang dimuat menggunakan `joblib`.
-  - **Antarmuka input** menggunakan Streamlit, di mana pengguna dapat memasukkan data melalui form interaktif.
+  - **Antarmuka input**, di mana pengguna dapat memasukkan data melalui form interaktif streamlit.
   - **Prediksi** terhadap data tersebut untuk menentukan apakah status mahasiswa (`graduate, enrolled, atau dropout`).
 
 - Untuk menjalankan prediksi:
