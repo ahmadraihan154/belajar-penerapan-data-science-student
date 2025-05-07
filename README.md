@@ -4,9 +4,9 @@
 
 ## Struktur Direktori
 Adapun struktur direktori yang digunakan pada submission ini adalah:
-  1. app – Berisi file model yang telah dilatih untuk memprediksi status mahasiswa graduate, enrolled, atau dropout.
+  1. model – Berisi file model yang telah dilatih untuk memprediksi status mahasiswa graduate, enrolled, atau dropout.
   2. notebook – Berisi notebook (Jupyter Notebook) yang memuat seluruh proses analisis dan pemodelan.
-  3. prediction – Berisi skrip yang digunakan untuk melakukan prediksi terhadap data baru.
+  3. app – Berisi skrip yang digunakan untuk melakukan prediksi yang akan diakses di streamlit.
   4. README – File markdown yang menjelaskan deskripsi proyek, alur pengerjaan, hingga kesimpulan akhir.
   5. raihan-dashboard – Berisi dokumentasi berupa kumpulan screenshot dashboard yang telah dibuat.
   6. raihan-video – Berisi video penjelasan terkait dashboard serta rekomendasi bisnis yang diberikan.
@@ -36,7 +36,7 @@ Proyek ini memiliki cakupan proyek sebagai berikut:
 
   1. **Exploratory Data Analysis (EDA)**: Melakukan eksplorasi dan pemahaman mendalam terhadap data melalui visualisasi dan analisis statistik untuk mengidentifikasi pola serta fitur-fitur yang mungkin berkaitan erat dengan status mahasiswa.
 
-  2. **Data Preprocessing**: Melakukan serangkaian proses pembersihan dan transformasi data, termasuk perhitungan korelasi antar fitur, encoding variabel kategorikal, penyeimbangan data menggunakan teknik SMOTE, serta seleksi fitur untuk meningkatkan performa model.
+  2. **Data Preprocessing**: Melakukan serangkaian proses pembersihan dan transformasi data, termasuk perhitungan korelasi antar fitur, encoding, penyeimbangan data menggunakan teknik SMOTE, serta seleksi fitur untuk meningkatkan performa model.
 
   3. **Modeling dan Evaluasi**: Menerapkan berbagai algoritma machine learning seperti Random Forest, Gradient Boosting, Xgboost untuk membangun model prediktif. Evaluasi dilakukan menggunakan metrik seperti Accuracy, Precision, Recall, dan F1-Score guna menentukan model dengan kinerja terbaik.
 
@@ -46,7 +46,7 @@ Proyek ini memiliki cakupan proyek sebagai berikut:
 
 ## 2. Persiapan
 ### 2.1 **Dataset**
-Dataset yang digunakan dalam proyek ini adalah **[Dataset Karyawan Jaya Jaya Maju](https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/README.md)**, yang disediakan sesuai dengan instruksi pada submission proyek ini.
+Dataset yang digunakan dalam proyek ini adalah **[Dataset students' performance](https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/README.md)**, yang disediakan sesuai dengan instruksi pada submission proyek ini.
 
 ## 3. Tahapan Pengerjaan
 ### 3.1 Membuka notebook.ipynb
