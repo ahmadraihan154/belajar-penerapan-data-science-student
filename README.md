@@ -89,11 +89,11 @@ Untuk mengakses **dashboard** secara lokal, Anda dapat menjalankan **Metabase** 
    ```
 
 3. **Login ke Metabase dengan url : http://localhost:3000/setup** menggunakan kredensial berikut:
-   - **Username**: `root@mail.com`
+   - **Username**: `root@gmail.com`
    - **Password**: `root123`
 
 ## 4. Business Dashboard
-- Berdasarkan hasil **analisis dari Dasboard** dan modeling menggunakan **Random Forest**, berikut adalah 15 fitur yang paling berpengaruh terhadap keputusan karyawan untuk keluar dari perusahaan:
+- Berdasarkan hasil **analisis dari Dasboard** dan modeling menggunakan **Random Forest**, berikut adalah 15 fitur yang paling berpengaruh terhadap status mahasiswa:
 1. **Curricular_units_2nd_sem_approved**  
    Mahasiswa yang menyelesaikan lebih banyak mata kuliah di semester kedua memiliki kecenderungan besar untuk lulus.  
    EDA menunjukkan bahwa mahasiswa graduated secara konsisten memiliki jumlah mata kuliah approved yang tinggi di semester dua.  
@@ -189,10 +189,10 @@ Untuk mengakses **dashboard** secara lokal, Anda dapat menjalankan **Metabase** 
 | Gradient Boosting  | 0.7503 | 0.7531    | 0.7503  | 0.7491   |
 
 ### 6. Conclusion
-- Dengan memahami faktor-faktor utama yang memengaruhi status mahasiswa—apakah lulus (graduate), masih aktif (enrolled), atau berhenti studi (dropout) serta menerapkan model prediktif yang efektif, institusi pendidikan dapat mengambil langkah proaktif untuk meningkatkan jumlah kelulusan mahasiswa dan mengurangi mahasiswa yang dropout.
+- Dengan memahami faktor-faktor utama yang memengaruhi status mahasiswa untuk lulus (graduate), masih aktif (enrolled), atau berhenti studi (dropout) serta menerapkan model prediktif yang efektif, institusi pendidikan dapat mengambil langkah proaktif untuk meningkatkan jumlah kelulusan mahasiswa dan mengurangi mahasiswa yang dropout.
 
 ### 7. Rekomendasi Action (Optional)
-- Adapun beberapa rekomendasi yang dapat diberikan agar dapat mengurangi potensi attrition pada karyawan adalah sebagai berikut:
+- Adapun beberapa rekomendasi yang dapat diberikan agar dapat meningkatkan jumlah kelulusan mahasiswa dan mengurangi mahasiswa yang dropout.n adalah sebagai berikut:
 1. **Memperhatikan performa akademik mahasiswa**, terutama dari jumlah mata kuliah yang disetujui dan nilai di semester 1 dan 2. Mahasiswa dengan nilai rendah perlu dipantau lebih awal dan diberikan pendampingan seperti bimbingan belajar dan remedial.
 
 2. **Meningkatkan keterlibatan mahasiswa dalam aktivitas akademik**, seperti evaluasi, kuis, dan tugas. Partisipasi rendah menunjukkan risiko dropout, sehingga perlu dipantau secara rutin.
