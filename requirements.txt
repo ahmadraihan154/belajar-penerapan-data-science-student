@@ -20,3 +20,6 @@ joblib
 # Koneksi ke database PostgreSQL
 sqlalchemy
 psycopg2-binary
+
+# Deploy Model
+streamlit
